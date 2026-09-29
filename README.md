@@ -1,21 +1,20 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
+
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* A fictional company called the Northstar Medical Group was mismanaged by a MSP (Managed Service Provider) in which they did not have a structured process of onboarding employees to the organization. New employees would have inconsistent access to resources and departments are disorganized in Active Directory. Since this company is in the healthcare sector, the mismanagement issue of their employees leads to HIPAA violations.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
-
+* I have rebuilt this company's employee onboarding process in Active Directory. I started off with creating a new domain called NMG.com. I then created OU's that represented each department with the proper employees added to them. I made sure to create the proper security groups that allow each employee the right access for their job duties. This implementation of RBAC (Role Based Access Control) improves security based on principle of least privilege, simplifies management when onboarding/off-boarding employees and satisfies HIPAA regulation.
+  
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
 
 ## Tools Used
 * Windows Server
 * Active Directory Domain Services
-* VirtualBox
 * UTM
-* RBAC
-* GitHub
+* RBAC (Role Based Access Control)
 
 ## Project Timeline
 * Day 1: Domain creation and domain controller promotion
@@ -26,6 +25,8 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Designed department-based OU structure (Finance, HR, IT, Operations)
+* Implemented RBAC with security groups mapped to each department
+* Provisioned 15 user accounts with consistent naming conventions and attribute standards
+
 
