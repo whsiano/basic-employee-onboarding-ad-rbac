@@ -8,7 +8,7 @@
 * I have rebuilt this company's employee onboarding process in Active Directory. I started off with creating a new domain called NMG.com. I then created OU's that represented each department with the proper employees added to them. I made sure to create the proper security groups that allow each employee the right access for their job duties. This implementation of RBAC (Role Based Access Control) improves security based on principle of least privilege, simplifies management when onboarding/off-boarding employees and satisfies HIPAA regulation.
   
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+[In Progress]
 
 ## Tools Used
 * Windows Server
